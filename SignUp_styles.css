@@ -7,7 +7,7 @@ header{
     overflow: hidden;
     background-color:black;
     attachment: scroll ;
-    opacity: 0.8;
+    opacity: 0.7;
     color: white;
     box-shadow: 2px 2px 2px 2px black;
 }
@@ -31,10 +31,11 @@ body{
      padding-right: 20px;
  }
 .txtbox {
-    padding: 10px;
+    padding: 15px;
     margin-left: 5px;
 }
 .CyberLogo{
+    padding-top: 10px;
     margin-left: 10px;
     opacity: 1;
 }
@@ -50,19 +51,41 @@ table{
     margin-top: 20px;
 
 }
+.button{
+
+    width: 20%;
+}
+
+.button:hover{
+    background-color: lightgrey;
+    cursor: pointer ;
+    color: black;
+}
 
 a{
     color: white;
 }
 
+.txtInput{
+    padding: 10px;
+}
 @media only screen and (min-width:1000px) {
     footer{
         margin-top:25%;
         background-color: black;
     }
+    .CyberLogo{
+        margin-left: 10px;
+        opacity: 1;
+    }
     table{
         text-align: left;
         margin-left:20px;
         margin-top: 20px;
+    }
+    .button:hover{
+        background-color: lightgrey;
+        cursor: pointer ;
+        color: black;
     }
 }
