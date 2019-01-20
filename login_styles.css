@@ -13,6 +13,7 @@ header{
 body{
 
     background-image:url("http://smarterware.org/wp-content/uploads/2016/09/technology1.jpg") ;
+
 }
 .links{
     color: white;
@@ -22,9 +23,8 @@ body{
 table{
     color: white;
     align-self: center;
-    float: right;
-    margin-right: 10px;
-    margin-top: 100px;
+    margin-left: 25px;
+    margin-top: 50px;
 }
 .CyberLogo{
     padding: 10px;
@@ -39,7 +39,6 @@ table{
     margin-left: 20px;
 }
 .button{
-    background: red;
     width: 22%;
 }
 footer{
@@ -54,6 +53,9 @@ nav{
 a{
     color: white;
 }
+.textInput{
+    padding: 10px;
+}
 
 @media only screen and (min-width:1000px) {
     footer{
@@ -66,8 +68,8 @@ a{
     }
     table{
         float: none;
-        margin-left: 30px;
-        margin-top: 30px;
+        margin-left: 20px;
+        margin-top: 10px;
     }
     .textInput{
         margin-top: 20px;
@@ -75,6 +77,10 @@ a{
     .button{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .button:hover{
+        background-color: lightgrey;
+        cursor: pointer ;
     }
 
 }
