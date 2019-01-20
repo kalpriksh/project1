@@ -18,9 +18,11 @@ header
 .CyberLogo{
     margin-left: 10px;
     margin-top: 20px;
+
 }
 .headertxt{
     padding: 20px;
+
 }
 
 nav{
@@ -33,7 +35,7 @@ nav{
 
 }
 a{
-    color: black;
+    color: dimgrey;
     margin-right: 5px;
 }
 
@@ -100,4 +102,15 @@ table{
 }
 footer {
 
+}
+h1{
+    color: dimgrey;
+}
+
+h6{
+    color: dimgrey;
+}
+
+.name:hover{
+    background-color: darkgrey;
 }

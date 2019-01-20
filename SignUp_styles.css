@@ -31,7 +31,7 @@ body{
      padding-right: 20px;
  }
 .txtbox {
-    padding: 10px;
+    padding: 15px;
     margin-left: 5px;
 }
 .CyberLogo{
@@ -51,11 +51,24 @@ table{
     margin-top: 20px;
 
 }
+.button{
+
+    width: 20%;
+}
+
+.button:hover{
+    background-color: lightgrey;
+    cursor: pointer ;
+    color: black;
+}
 
 a{
     color: white;
 }
 
+.txtInput{
+    padding: 10px;
+}
 @media only screen and (min-width:1000px) {
     footer{
         margin-top:25%;
@@ -69,5 +82,10 @@ a{
         text-align: left;
         margin-left:20px;
         margin-top: 20px;
+    }
+    .button:hover{
+        background-color: lightgrey;
+        cursor: pointer ;
+        color: black;
     }
 }

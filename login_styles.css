@@ -3,10 +3,11 @@
     padding: 0;
 }
 header{
+    position: relative;
     width:100%;
     overflow: hidden;
+    opacity: 0.8;
     background-color:black;
-    opacity: 0.7;
     color: white;
     box-shadow: 2px 2px 2px 2px black;
 }
@@ -27,7 +28,9 @@ table{
     margin-top: 50px;
 }
 .CyberLogo{
-    padding: 10px;
+    position: relative;
+    top: 10px;
+
 }
 .bodytxt{
     color: white;
@@ -36,17 +39,20 @@ table{
 }
 .headtxt{
     color: white;
+    padding-top: 20px;
     margin-left: 20px;
 }
 .button{
     width: 22%;
 }
 footer{
+    overflow: hidden;
     color: white;
     margin-top:120%;
     background-color: black;
 }
 nav{
+    padding-top: 10px;
     float: right;
     color: white;
 }
@@ -54,7 +60,12 @@ a{
     color: white;
 }
 .textInput{
-    padding: 10px;
+    padding: 5px;
+}
+.button:hover{
+    background-color: lightgrey;
+    cursor: pointer ;
+    color: black;
 }
 
 @media only screen and (min-width:1000px) {
@@ -81,6 +92,7 @@ a{
     .button:hover{
         background-color: lightgrey;
         cursor: pointer ;
+        color: black;
     }
 
 }
