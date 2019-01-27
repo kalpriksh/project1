@@ -18,12 +18,11 @@ header{
 
 .CyberLogo{
     display: none;
-
 }
 
 .noAvatar{
     padding: 20px;
-   }
+}
 .myimage{
     width: 20%;
 }
@@ -42,61 +41,43 @@ header{
     color: darkslategrey;
 }
 table{
-    width: 94%;
+    width: 100%;
     font-family: "Calibri Light";
     margin-left: auto;
     margin-right: 20% ;
     margin-top:10px ;
     background-color: lightgrey;
-    }
+}
 .info1{
     text-align: center;
     background-color: whitesmoke;
     padding: 10px;
     border: solid;
     border-width:0.5px ;
-    border-color: whitesmoke   ;
+    border-color: lightgrey;
 }
 .info{
     text-align: center;
     padding: 10px;
-    width: 100%;
-    text-align: left;
     background-color: whitesmoke;
-    box-shadow: none;
+    background-color: red;
 }
-.tableButton{
-    margin-left: 20%;
-    background-color: white;
-}
-.buttonBackground{
-
-    text-align: center;
-    margin-top: 20px;
-    width: 10%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.buttonBackground:hover{
-    background-color: darkgray;
-    cursor: pointer;
-}
-
 
 nav{
     float: right;
 }
 .links{
     display: inline;
-}
+    }
 .links:hover{
     background-color: darkgray;
     display: inline;
-
+    margin-right: 10px;
 }
 a{
     color: black;
     margin-right: 10px;
+    float: right;
 }
 footer{
 
