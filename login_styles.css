@@ -91,8 +91,9 @@ table{
     color: darkslategrey;
     text-align: center;
     margin-top: 125px;
-    margin-left: 26%;
-    margin-right: 23%;
+    width: 70%;
+    margin-left:auto ;
+    margin right:auto;
     background-color: whitesmoke;
 }
 .contentTxt{
