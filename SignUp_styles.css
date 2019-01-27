@@ -73,10 +73,6 @@ body{
     margin-top: 10px;
     margin-right:45% ;
     margin-bottom: 20%;
-    border: solid;
-    border-color: whitesmoke ;
-    border-right-color: lightgray;
-    border-width: 0.5px;
 }
 table{
     margin-left: auto;
@@ -164,6 +160,16 @@ a{
         margin-left: 20px;
         margin-top: 10px;
     }
+    .table{
+        margin-top: 10px;
+        margin-right:45% ;
+        margin-bottom: 20%;
+        border: solid;
+        border-color: whitesmoke ;
+        border-right-color: lightgray;
+        border-width: 0.5px;
+    }
+
     .textInput{
 
     }
