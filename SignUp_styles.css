@@ -71,8 +71,8 @@ body{
 
 .table{
     margin-top: 10px;
-    margin-right:45% ;
-    margin-bottom: 20%;
+    margin-right:25% ;
+    margin-bottom: 25%;
 }
 table{
     margin-left: auto;
@@ -93,8 +93,9 @@ table{
     color: darkslategrey;
     text-align: center;
     margin-top: 125px;
-    margin-left: 26%;
-    margin-right: 23%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: whitesmoke;
 
 }
