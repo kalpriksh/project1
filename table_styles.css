@@ -8,6 +8,7 @@ body{
 }
 header
 {
+
     font-family: "Calibri Light";
     background-color: white;
     overflow: hidden;
@@ -45,7 +46,6 @@ table{
     font-family: "Calibri Light";
     margin-left: auto;
     margin-right:auto ;
-    text-align-all: center;
     background-color: whitesmoke;
     box-shadow: 2px 2px 2px 2px lightgrey;
     border-bottom-right-radius: 10px;
@@ -61,12 +61,6 @@ table{
     border-width: 0.5px;
     border-color: lightgrey;
 }
-.id{
-    padding: 20px;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: lightgrey;
-}
 .post{
     padding: 20px;
     border-width: 0.5px;
@@ -74,29 +68,22 @@ table{
     border-color: lightgrey;
 
 }
-.nameh{
-    padding: 20px;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: lightgrey;
-    background-color: lightgrey;
+  td > div{
+  padding: 20px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: lightgrey;
+  background-color: lightgrey;
 }
-.idh{
-    padding: 20px;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: lightgrey;
-    background-color: lightgrey;
-}
+
 footer {
+    margin-top: 100%;
 
 }
-.posth{
-    padding: 20px;
-    border-width: 0.5px;
-    border-style: solid;
-    border-color: lightgrey;
-    background-color: lightgrey;
+
+td{
+    text-align: center;
+    height: 25px;
 }
 h1{
     color: dimgrey;
@@ -106,6 +93,24 @@ h6{
     color: dimgrey;
 }
 
-.name:hover{
-    background-color: darkgrey;
+tr:hover{
+    background-color: lightgrey;
+}
+button{
+
+  background: lightgrey;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  height: 40px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+
+}
+
+button:hover{
+  background-color: darkgray;
+  cursor: pointer;
 }

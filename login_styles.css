@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0;
     padding: 0;
 }
@@ -27,10 +27,13 @@ header{
     box-shadow: 1px 1px 1px 2px darkgray;
 }
 .dropdown:hover .navigationDropdown{
+
     display: block;
+
 }
 
 .dropdown:hover .headerButton{
+
     background-color: dimgray;
     box-shadow: none;
     cursor: pointer;
